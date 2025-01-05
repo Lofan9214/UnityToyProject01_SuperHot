@@ -50,7 +50,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        cameraTransform.rotation = rb.rotation * Quaternion.Euler(-input.RotateVertical, 0f, 0f);
+        if (Time.timeScale > 0f)
+        {
+            cameraTransform.rotation = rb.rotation * Quaternion.Euler(-input.RotateVertical, 0f, 0f);
+        }
     }
 
     private void OnCollisionStay(Collision collision)

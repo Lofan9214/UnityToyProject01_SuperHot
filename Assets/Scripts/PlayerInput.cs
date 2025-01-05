@@ -16,6 +16,7 @@ public class PlayerInput : MonoBehaviour
     public Vector2 Direction { get; private set; }
 
     public float rotationSpeed = 200f;
+    public float startAngle = 180f;
 
     public float AxisInput
     {
@@ -30,6 +31,12 @@ public class PlayerInput : MonoBehaviour
 
     public bool Fire { get; private set; }
     public bool Jump { get; private set; }
+
+    private void Awake()
+    {
+        RotateHorizontal = startAngle;
+    }
+
 
     private void Update()
     {

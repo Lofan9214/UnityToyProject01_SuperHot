@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bullet : MonoBehaviour
 {
@@ -24,6 +25,15 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        switch (collision.collider.tag)
+        {
+            case "Player":
+                GameObject.FindGameObjectWithTag("GameController")?.GetComponent<GameManager>()?.PlayerDie();
+                break;
+            case "Enemy":
+                collision.collider.GetComponent<PistolEnemy>().Die();
+                break;
+        }
         rb.velocity = Vector3.zero;
         bullet.SetActive(false);
         Destroy(gameObject, 0.5f);

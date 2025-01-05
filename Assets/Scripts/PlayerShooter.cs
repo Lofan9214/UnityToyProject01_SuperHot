@@ -11,15 +11,21 @@ public class PlayerShooter : MonoBehaviour
     public Animator animator;
     private PlayerInput input;
 
+    public float fireRate = 0.5f;
+    private float lastFireTime;
+
     private void Awake()
     {
         input = GetComponent<PlayerInput>();
+        lastFireTime = 0f;
     }
 
     private void Update()
     {
-        if (input.Fire)
+        if (input.Fire
+            && lastFireTime + fireRate < Time.time)
         {
+            lastFireTime = Time.time;
             Bullet bul = Instantiate(bullet);
             bul.Fire(firePosition.position + firePosition.forward * 0.9f, firePosition.forward);
             animator.SetTrigger(hashAttack);
