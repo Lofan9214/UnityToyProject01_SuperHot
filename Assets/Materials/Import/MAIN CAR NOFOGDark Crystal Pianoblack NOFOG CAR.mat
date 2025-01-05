@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAIN CAR NOFOGDark Crystal Pianoblack NOFOG CAR
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _EMISSION
+  m_InvalidKeywords: []
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 6ea27f70c6683024385177629eedc117, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlbedoPower: 2.142857
+    - _AllowLocalFog: 1
+    - _Alpha: 1
+    - _AlphaDecay: 0
+    - _AreaSpecularPower: 0
+    - _BScale: 1
+    - _BumpScale: 1
+    - _ColorSwap: 0
+    - _ColorSwapFlag: 0
+    - _Cutoff: 0
+    - _DarkReflectionPower: 0.5
+    - _Dead: 0
+    - _DeadPhase: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FinalValueClamp: 100
+    - _Focus: 0
+    - _FocusScale: 1
+    - _FogDistance: 10
+    - _FogLength: 100
+    - _GScale: 1
+    - _GlobalScale: 1
+    - _Gloss: 0.6071428
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HDRPhase: 0
+    - _HDRPhaseB: 0
+    - _HighlightRange: 1
+    - _HotswitchFocus: 0
+    - _IsEnemy: 1
+    - _LightProbesPower: 0
+    - _LightmapReaction: 0.5
+    - _LightmapSmoothing: 0.1
+    - _LightmapThreshold: 0.5
+    - _LocalTime: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Phase: 1
+    - _PrimaryRampColorAngle: 0.44642857
+    - _PrimaryRampPower: 0.41071427
+    - _PrimaryRimColorAngle: 0
+    - _PrimaryRimPower: 0
+    - _RScale: 1
+    - _RampAngle: 0
+    - _RampPower: 0.2142857
+    - _ReceivedLightPower: 1
+    - _ReflPower: 0.5
+    - _ReflectionPower: 0
+    - _ReflectionRampAngle: 0.9142857
+    - _RimPower: 0.14285715
+    - _Shininess: 0.14280075
+    - _SmoothnessTextureChannel: 0
+    - _SpecPower: 48
+    - _SpecularHighlights: 1
+    - _SpecularPower: 0.14285715
+    - _SrcBlend: 1
+    - _StripePotega: 1
+    - _StripePower: -1
+    - _StripeRotation: 0
+    - _StripeTexXTilingTileX: -0.8
+    - _StripeTexXTilingTileY: 0.8
+    - _SuperSpecularPower: 0
+    - _UVSec: 0
+    - _UseAdditiveGradientMap: 0
+    - _UseGradientMap: 0
+    - _UseVertexScale: 0
+    - _VertexFloatPower: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AlphaCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HighlightColor: {r: 0, g: 0.66896534, b: 1, a: 0}
+    - _MidtonesColor: {r: 0, g: 0.6275859, b: 1, a: 0}
+    - _PrimaryRampColor: {r: 1, g: 1, b: 1, a: 0}
+    - _PrimaryRimColor: {r: 0.18382353, g: 0.18382353, b: 0.18382353, a: 0}
+    - _RampColor: {r: 0.8235294, g: 0.89776874, b: 1, a: 0}
+    - _ShadowColor: {r: 0.5148681, g: 0.6139922, b: 0.6544118, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _StripeFocusBackground: {r: 0, g: 0, b: 0, a: 1}
+    - _StripeFocusColor: {r: 0.3455882, g: 0, b: 0.06435055, a: 1}
+    - _SuperSpecColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

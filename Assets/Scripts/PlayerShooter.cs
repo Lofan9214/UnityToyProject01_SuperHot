@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class PlayerShooter : MonoBehaviour
 {
+    private readonly int hashAttack = Animator.StringToHash("Attack");
+
     public Bullet bullet;
     public Transform firePosition;
+    public Animator animator;
     private PlayerInput input;
 
     private void Awake()
@@ -18,7 +21,8 @@ public class PlayerShooter : MonoBehaviour
         if (input.Fire)
         {
             Bullet bul = Instantiate(bullet);
-            bul.Fire(transform.position + firePosition.forward * 0.6f, firePosition.forward);
+            bul.Fire(firePosition.position + firePosition.forward * 0.9f, firePosition.forward);
+            animator.SetTrigger(hashAttack);
         }
     }
 }

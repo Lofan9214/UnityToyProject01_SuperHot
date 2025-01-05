@@ -15,6 +15,8 @@ public class PlayerInput : MonoBehaviour
 
     public Vector2 Direction { get; private set; }
 
+    public float rotationSpeed = 200f;
+
     public float AxisInput
     {
         get
@@ -23,8 +25,8 @@ public class PlayerInput : MonoBehaviour
         }
     }
 
-    public float RotateVertical { get; private set; }
     public float RotateHorizontal { get; private set; }
+    public float RotateVertical { get; private set; }
 
     public bool Fire { get; private set; }
     public bool Jump { get; private set; }
@@ -38,7 +40,10 @@ public class PlayerInput : MonoBehaviour
         }
         Fire = Input.GetButtonDown(fireAxisName);
         Jump = Input.GetButton(jumpAxisName);
-        RotateHorizontal = Input.GetAxis(mouseX);
-        RotateVertical = Input.GetAxis(mouseY);
+        float rotateH = Input.GetAxis(mouseX);
+        float rotateV = Input.GetAxis(mouseY);
+
+        RotateHorizontal += rotateH * rotationSpeed * Time.unscaledDeltaTime;
+        RotateVertical = Mathf.Clamp(RotateVertical + rotateV * rotationSpeed * Time.unscaledDeltaTime, -90f, 90f);
     }
 }

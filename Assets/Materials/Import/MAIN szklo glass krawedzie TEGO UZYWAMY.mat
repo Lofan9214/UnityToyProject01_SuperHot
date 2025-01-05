@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAIN szklo glass krawedzie TEGO UZYWAMY
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _EMISSION
+  m_InvalidKeywords:
+  - _USEFOG_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 0.5
+    - _BRIGHTNES_VALUE: 0
+    - _BlikPower: 0
+    - _Bounds: 1
+    - _Brightness: 0
+    - _BumpScale: 1
+    - _CONTRAST_VALUE: 1
+    - _Contrast: 0
+    - _Cutoff: 0.5
+    - _DIFFUSE: 0.5
+    - _DefaultReflectionPower: 1
+    - _Density: 0.1636567
+    - _DetailNormalMapScale: 1
+    - _DiffusePower: 1
+    - _Distorsion: 0.5
+    - _DstBlend: 0
+    - _EdgeAlpha: 1
+    - _Emmisive: 0.5
+    - _FresnelPower: 1
+    - _FrezFalloff: 0
+    - _FrezPow: 0
+    - _GLOSS: 0
+    - _Gloss: 1
+    - _GlossMapScale: 1
+    - _GlossValue: 0.5
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HDRPhase: 0
+    - _HDRscale: 5
+    - _HUE_SHIFT: 0
+    - _Hue: 0
+    - _IDONTEVEN: 1
+    - _LightmapBrightness: 0
+    - _LightmapContrast: 0
+    - _Metalics: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NORMAL_POWER: 1
+    - _NormalPower: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ProcReflPower: 0
+    - _RAMP_POWER: 0.72
+    - _RAMP_SIZE: 4.16
+    - _RampPower: 0.25
+    - _RampSize: 0
+    - _RefScale: 1
+    - _Reflection: 0.8214286
+    - _ReflectionPower: 4.17
+    - _ReflectionRim: 0.5
+    - _ReflectionRimProg: 0.787
+    - _RimColorPower: 0.107142866
+    - _RimPower: 0.389
+    - _RimProg: 0
+    - _RotateX: 0
+    - _RotateY: 0
+    - _RotateZ: 0
+    - _SATURATION_VALUE: 1
+    - _SPECULAR: 1
+    - _SPEC_HARDNESS: 0.067
+    - _SPEC_INTENSITY: 0
+    - _Saturation: 1
+    - _Shininess: 0.01
+    - _SmoothnessTextureChannel: 0
+    - _SpecularBrightness: 0
+    - _SpecularContrast: 0.5
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Transparency: 0.66071427
+    - _UVSec: 0
+    - _UseFog: 1
+    - _UseGradientMap: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 0.9019608}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogColor: {r: 1, g: 1, b: 1, a: 0}
+    - _RAMP_COLOR: {r: 1, g: 1, b: 1, a: 1}
+    - _RampColor: {r: 1, g: 0, b: 0, a: 1}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 1, g: 0, b: 0, a: 1}
+    - _TINT: {r: 1, g: 0.8068964, b: 0, a: 1}
+    - _color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

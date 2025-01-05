@@ -6,6 +6,8 @@ public class Bullet : MonoBehaviour
 {
     public float speed = 20f;
 
+    public GameObject bullet;
+
     private Rigidbody rb;
 
     private void Awake()
@@ -22,7 +24,8 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Destroy(gameObject);
+        rb.velocity = Vector3.zero;
+        bullet.SetActive(false);
+        Destroy(gameObject, 0.5f);
     }
-
 }

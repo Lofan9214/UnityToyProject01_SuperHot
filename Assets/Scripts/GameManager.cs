@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (move.Grounded && !shot && input.AxisInput < 1e-5)
+        if (move.isGrounded && !shot && input.AxisInput < 1e-5)
         {
             Time.timeScale = 0.1f;
         }
